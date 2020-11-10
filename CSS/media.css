@@ -1,0 +1,271 @@
+@media screen and (max-width: 1169px) {
+    .container {
+        width: 724px;
+    }
+
+    /* Шапка */
+
+    .head__menu {
+        display: none;
+    }
+
+    .head__phone {
+        margin-left: 290px;
+    }
+
+
+    .head__burg-menu {
+        display: block;
+        margin-left: 30px;
+        padding-top: 25px;
+    }
+
+    /* Банер */
+
+    .banner__title {
+        font-size: 64px;
+        letter-spacing: 0.2em;
+    }
+
+    .banner__title--min {
+        font-size: 44px;
+    }
+
+    /* Наши приемущества */
+
+    .advantages__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .advantages__list--flex {
+        width: 720px;
+    }
+
+    .advantages__list-item {
+        width: 352px;
+        height: 357px;
+    }
+
+    .advantages__list-item--big {
+        width: 720px;
+        height: 357px;
+        margin-top: 20px;
+    }
+
+    /* Переезд в Болгарию */
+
+    .moving__banner {
+        width: 720px;
+    }
+    
+    /* Недвижимость и транспортные услуги*/
+
+    .apartments__home-top, .apartments__home-bottom   {
+        width: 600px;
+    }
+
+    .apartments__home-top__desc, .apartments__home-bottom__desc {
+        font-size: 14px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    /* Отзывы наших клиентов */
+
+    .reviews__scroll {
+        justify-content: space-between;
+    }
+
+    .reviews__scroll-item {
+        width: 600px;
+        height: 246px;
+    }
+
+    .reviews__scroll-item-inform-data {
+        flex-direction: column;
+    }
+
+    .reviews__scroll-item-inform-data-city {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .reviews__scroll-item-inform-desc {
+        margin-top: 20px;
+    }
+
+    .reviews__scroll-item-img  {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    /* футер */
+
+    .footer {
+        box-shadow: none;
+    }
+
+    .footer__rights {
+        margin-left: 65px;
+    }
+
+    .footer__pp {
+        margin-left: 55px;
+    }
+
+    .head__phone--footer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 723px) {
+
+    .container {
+        width: 444px;
+    }
+
+    /* Шапка */
+
+    .head__logo {
+        width: 141px;
+    }
+
+    .head__phone {
+        display: none;
+    }
+
+
+    .head__burg-menu {
+        display: block;
+        margin-left: 274px;
+        padding-top: 25px;
+    }
+
+    /* Банер */
+
+    .banner__title {
+        font-size: 47px;
+    }
+
+    .banner__title--min {
+        font-size: 33px;
+    }
+
+    /* Наши приемущества */
+
+    .advantages__list--flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__list {
+        margin-top: 35px;
+    }
+
+    .advantages__list-item {
+        width: 442px;
+        height: 357px;
+        margin-top: 15px;
+    }
+
+    .advantages__list-item--big {
+        width: 442px;
+        height: 357px;
+        margin-top: 15px;
+    }
+
+    /* Переезд в Болгарию */
+
+    .moving {
+        height: 961px;
+        background: rgb(43, 68, 88);
+    }
+
+    .moving__banner {
+        width: 442px;
+        height: 274px;
+        padding: 45px 10px 0px 10px;
+    }
+
+    .moving__banner-img {
+        top: -15px;
+        left: 205px;
+    }
+    
+    .moving__banner-img:last-child {
+        top: 260px;
+    }
+
+    /* Недвижимость и транспортные услуги*/
+
+    .apartments {
+        height: 1200px;
+    }
+
+    .apartments__home-top  {
+        width: 442px;
+        height: 339px;
+    }
+
+    .apartments__home-bottom {
+        width: 445px;
+        height: 204px;
+    }
+
+    .apartments__home-img {
+        bottom: 180px;
+    }
+
+    .apartments__home-image {
+        bottom: 470px;
+    }
+
+    /* Отзывы наших клиентов */
+
+    .reviews__scroll-left, .reviews__scroll-right {
+        display: none;
+    }
+
+    .reviews__scroll-item {
+        flex-direction: column;
+        align-items: center;
+        width: 442px;
+        height: 331px;
+    }
+
+    .reviews__scroll-item-img {
+        margin-top: -70px;
+    }
+
+    .reviews__scroll-item-inform-data {
+        align-items: center;
+    }
+
+    .reviews__scroll-item-inform-data--flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__scroll-item-inform-data-vk {
+        margin-top: 18px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+      /* футер */
+
+    .footer {
+        box-shadow: none;
+    }
+
+    .footer__rights {
+        margin-left: 90px;
+    }
+
+    .footer__pp {
+        display: none;
+    }
+
+} 

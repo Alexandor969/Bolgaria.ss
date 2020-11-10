@@ -1,0 +1,192 @@
+.header {
+    background: url(../img/head__bg.jpg) no-repeat center top / cover;
+    height: 412px;
+}
+
+/* Шапка */
+
+.head .head__phone-number-text:first-child {
+    display: none;
+}
+
+.head .head__phone-number-text:last-child {
+    margin-top: 8px;
+}
+
+/* Банер */
+
+.banner {
+    margin-top: 85px;
+}
+
+.banner__title {
+    font-size: 51px;
+    letter-spacing: 0.2em;
+}
+
+.banner__arrow {
+    margin-top: 40px;
+}
+/* контент */
+
+.move {
+    margin-top: -88px;
+}
+
+.move__wrap {
+    background-color: #fff;
+    box-shadow: 0px 3px 1px 0px rgba(159, 160, 160, 0.18);
+    width: 1030px;
+    height: 681px;
+}
+
+.move__wrap-title {
+    font-size: 17px;
+    font-family: "Museo Sans Cyrl 100";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    margin-top: 46px;
+    letter-spacing: 0.06em;
+}
+
+.move__wrap-title--bold {
+    font-family: "Museo Sans Cyrl 900";
+} 
+
+.move__wrap-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.move__house {
+    margin-left: 105px;
+}
+
+.move__house-desc {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Museo Sans Cyrl 100";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.438;
+    text-align: left;
+    margin-top: 90px;
+}
+
+.move__box {
+    margin-right: 154px;
+}
+
+.move__box-desc {
+    font-size: 16px;
+    font-family: "Museo Sans Cyrl 100";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.438;
+    text-align: left; 
+}
+
+.move__box-img {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.move__house-desc--phone {
+    display: none;
+}
+
+@media screen and (max-width: 1169px) {
+    .header {
+        background: url(../img/Bg__header.jpg) no-repeat center top / cover;
+        height: 744px;
+    }
+
+    .head .head__phone-number-text:first-child {
+        display: inline;
+    }
+
+    .head .head__phone-number-text:last-child {
+        margin-top: 0px;
+    }
+
+    .banner__title {
+        letter-spacing: normal;
+    }
+
+    .banner__arrow  {
+        margin-top: 60px;
+    }
+
+    .move {
+        margin-top: -258px ;
+        background-color: #fff;
+    }
+
+    .move__wrap {
+        box-shadow: none;
+        width: 724px;
+    }
+
+    .move__wrap-title {
+        letter-spacing: 0.04em;
+    }
+
+    .move__house {
+        margin-left: 0;
+    }
+    .move__box {
+        margin-right: 0;
+    }
+
+    .move__box-img {
+        margin-left: 1%;
+    }
+
+} 
+
+@media screen and (max-width: 723px) {
+
+    .banner__title {
+        font-size: 37px;
+        letter-spacing: 0.2em;
+    }
+
+    .move__wrap {
+        height: 1096px;
+        width: 444px;
+    }
+
+    .move__wrap-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .move__house-desc {
+        display: none;
+    }
+
+    .move__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .move__box-desc {
+        text-align: center;
+    }
+
+    .move__box-img {
+        margin-left: 0;
+    }
+
+    .move__house-desc--phone {
+        display: inline;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Museo Sans Cyrl 100";
+    }
+
+    .questions {
+        margin: 0;
+    }
+} 
